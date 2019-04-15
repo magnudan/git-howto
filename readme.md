@@ -1,7 +1,7 @@
 # Begreper
 *   HEAD peker på den aktive branchen.
-*   origin er gitlab, og branchene i gitlab vil bli representert som origin/<...>, der <...> er navnet til branchen.
-*   Å committe betyr at man lagrer endringene lokalt. Ingen endringer blir gjort i gitlab før man pusher-
+*   origin er github, og branchene i github vil bli representert som origin/<...>, der <...> er navnet til branchen.
+*   Å committe betyr at man lagrer endringene lokalt. Ingen endringer blir gjort i github før man pusher-
 
 # How to git
 
@@ -22,12 +22,12 @@ git log --all --decorate --oneline --graph
 
 Gir en enkel oversiktsgraf av prosjektet: Alle committer, hvordan prosjektet er branchet, hvor branchene er.
 
-## Når man vil oppdatere fra gitlab
+## Når man vil oppdatere fra github
 ```
 git fetch origin
 ```
 
-Henter oppdateringer fra gitlab, men endrer ingen ting lokalt. På denne måten velger man selv hvilke branches man merger inn lokalt. Detaljer om merging kommer under.
+Henter oppdateringer fra github, men endrer ingen ting lokalt. På denne måten velger man selv hvilke branches man merger inn lokalt. Detaljer om merging kommer under.
 
 ### Eventuelt kan man oppdatere og merge samtidig. Her må man være litt forsiktigere enn når man fetcher.
 ```
@@ -111,7 +111,7 @@ git branch -d <...>
 
 Der <...> er branchen man vil slette.
 
-## Når man vil laste filene med endringer opp til gitlab
+## Når man vil laste filene med endringer opp til github
 ```
 git fetch
 ```
@@ -121,7 +121,7 @@ For å forsikre seg om at man har de nyeste versjonene, må man laste ned før m
 git push origin <...>
 ```
 
-Der <...&#62 er den aktuelle branchen i gitlab man ønsker å oppdatere. Vær veldig forsiktige med å pushe til origin master.
+Der <...&#62 er den aktuelle branchen i github man ønsker å oppdatere. Vær veldig forsiktige med å pushe til origin master.
 
 # Forkaste endringer
 
