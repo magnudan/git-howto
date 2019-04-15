@@ -121,7 +121,7 @@ For å forsikre seg om at man har de nyeste versjonene, må man laste ned før m
 git push origin <...>
 ```
 
-Der <...&#62 er den aktuelle branchen i github man ønsker å oppdatere. Vær veldig forsiktige med å pushe til origin master.
+Der <...> er den aktuelle branchen i github man ønsker å oppdatere. Vær veldig forsiktige med å pushe til origin master.
 
 # Forkaste endringer
 
